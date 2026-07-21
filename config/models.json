@@ -1,0 +1,45 @@
+{
+  "models": [
+    {
+      "id": "deepseek-v4-flash",
+      "label": "DeepSeek V4 Flash",
+      "base_url": "https://api.deepseek.com",
+      "api_key_env": "DEEPSEEK_API_KEY",
+      "model": "deepseek-v4-flash",
+      "price_input_per_1m": 1.0,
+      "price_output_per_1m": 2.0,
+      "currency": "CNY",
+      "notes": "真实账单价格。¥1/M input, ¥2/M output。"
+    },
+    {
+      "id": "deepseek-v4-pro",
+      "label": "DeepSeek V4 Pro",
+      "base_url": "https://api.deepseek.com",
+      "api_key_env": "DEEPSEEK_API_KEY",
+      "model": "deepseek-v4-pro",
+      "price_input_per_1m": 3.0,
+      "price_output_per_1m": 6.0,
+      "currency": "CNY",
+      "notes": "真实账单价格。¥3/M input(cache miss), ¥6/M output。75%折扣后价格。",
+      "thinking": {
+        "type": "disabled"
+      }
+    },
+    {
+      "id": "gpt-5.5",
+      "label": "GPT-5.5",
+      "base_url": "https://www.right.codes/codex/v1",
+      "api_key_env": "RIGHT_CODES_API_KEY",
+      "model": "gpt-5.5",
+      "price_input_per_1m": 1.0,
+      "price_output_per_1m": 6.0,
+      "currency": "CNY",
+      "notes": "Right Codes Codex日抛plus真实定价。$1/M in, $6/M out = ¥1/¥6（1:1汇率）。"
+    }
+  ],
+  "default_params": {
+    "temperature": 0.4,
+    "max_tokens": 1600,
+    "timeout_seconds": 180
+  }
+}
