@@ -2,7 +2,7 @@
 
 A reproducible workspace for comparing model outputs and evaluation notes.
 
-![プロジェクトのビジュアル](docs/assets/hero-system-v1.png)
+![model-quality-benchmark project visual](assets/model-quality-benchmark-hero.png)
 
 ## できること
 

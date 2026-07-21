@@ -4,7 +4,7 @@
 
 Contact: **Jacksun** · [qinji@jack-sun.com](mailto:qinji@jack-sun.com)
 
-![Model Quality Benchmark 主视觉：模型回答、评分与成本对比的概念示意。](docs/assets/hero-system-v1.png)
+![model-quality-benchmark project visual](docs/assets/model-quality-benchmark-hero.png)
 
 它提供通用创意、项目策划、沟通、运维与提示词设计任务，用于比较模型回答质量、延迟与预估成本。
 
